@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Seas Solutions | AI Innovation</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- External Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="cyber-loader"></div>
+    </div>
+
+    <!-- Background Effects -->
+    <div class="background-effects">
+        <div class="gradient-overlay"></div>
+        <canvas id="particleCanvas"></canvas>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-effect"></div>
+    <div class="cursor-trail"></div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">Clear Seas Solutions</div>
+            <div class="nav-links">
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1 class="glitch-text" data-text="Transforming Business Through AI">Transforming Business Through AI</h1>
+            <p class="fade-in">Innovative solutions for the digital age</p>
+            <button class="cta-button">Explore Services</button>
+        </section>
+
+        <!-- About Section with Video -->
+        <section id="about" class="about">
+            <h2 class="section-title fade-in">About Clear Seas Solutions</h2>
+            <div class="video-container fade-in">
+                <div class="video-wrapper" data-video-id="bxSvG2s8e-o">
+                    <div class="video-placeholder">
+                        <img src="https://img.youtube.com/vi/bxSvG2s8e-o/maxresdefault.jpg" alt="Clear Seas Solutions Introduction">
+                        <button class="play-button">
+                            <span class="play-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <h2 class="section-title fade-in">Our Services</h2>
+            <div class="service-grid">
+                <!-- Service cards will be added dynamically -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Clear Seas Solutions</p>
+    </footer>
+
+    <!-- Application Scripts -->
+    <script type="module" src="js/visual-effects.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
